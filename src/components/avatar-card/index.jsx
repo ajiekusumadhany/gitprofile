@@ -21,7 +21,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
             <div
               className={`mb-8 rounded-full w-32 h-32 ${
                 avatarRing
-                  ? 'ring ring-primary ring-offset-base-100 ring-offset-2 border-teal-700'
+                  ? 'ring ring-primary ring-offset-base-100 ring-offset-2 ring-teal-600'
                   : ''
               }`}
             >
