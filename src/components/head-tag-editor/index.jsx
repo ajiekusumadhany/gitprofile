@@ -32,7 +32,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
 
           <meta
             itemProp="name"
-            content={`Portfolio${profile.name && ` of ${profile.name}`}`}
+            content={`${profile.name}`}
           />
           <meta itemProp="description" content={profile.bio} />
           <meta itemProp="image" content={profile.avatar} />
@@ -41,17 +41,17 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content={`Portfolio${profile.name && ` of ${profile.name}`}`}
+            content={`${profile.name}`}
           />
-          <meta property="og:description" content={profile.bio} />
+          <meta property="og:description" content="Seorang mahasiswa teknik informatika di salah satu universitas di indonesia, suka komputer, belajar coding, serta lebih sering menghabiskan waktu di internet." />
           <meta property="og:image" content={profile.avatar} />
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content={`Portfolio${profile.name && ` of ${profile.name}`}`}
+            content={`${profile.name}`}
           />
-          <meta name="twitter:description" content={profile.bio} />
+          <meta name="twitter:description" content="Seorang mahasiswa teknik informatika di salah satu universitas di indonesia, suka komputer, belajar coding, serta lebih sering menghabiskan waktu di internet." />
           <meta name="twitter:image" content={profile.avatar} />
         </Helmet>
       )}
