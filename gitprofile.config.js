@@ -59,10 +59,34 @@ const config = {
   ],
    certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Belajar Membuat Front-End Web untuk Pemula',
+      body: 'Dicoding Indonesia',
+      year: 'October 2023',
+      link: 'https://www.dicoding.com/certificates/EYX4YO3VOZDL'
+    },
+    {
+      name: 'Belajar Dasar Pemrograman Web',
+      body: 'Dicoding Indonesia',
+      year: 'September 2023',
+      link: 'https://www.dicoding.com/certificates/MRZMLQGL0XYQ'
+    },
+    {
+      name: 'Belajar Dasar Structured Query Language (SQL)',
+      body: 'Dicoding Indonesia',
+      year: 'Agustus 2023',
+      link: 'https://www.dicoding.com/certificates/4EXGN26NQZRL'
+    },
+    {
+      name: 'Belajar Dasar Manajemen Proyek',
+      body: 'Dicoding Indonesia',
+      year: 'July 2023',
+      link: 'https://www.dicoding.com/certificates/0LZ09NRMNZ65'
+    },
+    {
+      name: 'Memulai Dasar Pemrograman untuk Menjadi Pengembang Software',
+      body: 'Dicoding Indonesia',
+      year: 'Agustus 2023',
+      link: 'https://www.dicoding.com/certificates/JMZV9J81QPN9'
     },
   ], 
   education: [
