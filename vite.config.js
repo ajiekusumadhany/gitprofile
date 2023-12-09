@@ -20,9 +20,9 @@ export default defineConfig({
       },
       includeAssets: ['logo.png'],
       manifest: {
-        name: 'Portfolio',
-        short_name: 'Portfolio',
-        description: 'Personal Portfolio',
+        name: 'Ajie Ikrus Kusumadhany',
+        short_name: 'Ajie Kusumadhany',
+        description: 'Seorang mahasiswa teknik informatika di salah satu universitas di indonesia, suka komputer, belajar coding, serta lebih sering menghabiskan waktu di internet.',
         icons: [
           {
             src: 'logo.png',
