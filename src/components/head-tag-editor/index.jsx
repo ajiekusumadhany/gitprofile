@@ -22,13 +22,13 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
                 gtag('config', '${googleAnalytics.id}');`}
             </script>
           )}
-          <title>Portfolio{profile.name && ` of ${profile.name}`}</title>
+          <title>${profile.name}</title>
           <meta
             name="theme-color"
             content={isDarkishTheme(theme) ? '#000000' : '#ffffff'}
           />
 
-          <meta name="description" content={profile.bio} />
+          <meta name="description" content="Seorang mahasiswa teknik informatika di salah satu universitas di indonesia, suka komputer, belajar coding, serta lebih sering menghabiskan waktu di internet." />
 
           <meta
             itemProp="name"
