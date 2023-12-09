@@ -140,10 +140,10 @@ const config = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: true,
+    respectPrefersColorScheme: false,
 
     // Hide the ring in Profile picture
-    hideAvatarRing: false,
+    hideAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
     themes: [
