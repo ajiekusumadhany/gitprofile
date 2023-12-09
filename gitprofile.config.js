@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'ajiekusumadhany', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 20, // How many projects to display.
+    limit: 18, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -152,8 +152,8 @@ const config = {
     ],
 
     // Custom theme
-    customTheme: {
-      primary: '#fc055b',
+    customTheme: {//#fc055b
+      primary: '#0d9488',
       secondary: '#219aaf',
       accent: '#e8d03a',
       neutral: '#2A2730',
