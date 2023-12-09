@@ -68,7 +68,7 @@ const AvatarCard = ({ profile, loading, avatarRing, resume }) => {
               download
               rel="noreferrer"
             >
-              Download Cv
+              Curriculum Vitae
             </a>
           ))}
       </div>
