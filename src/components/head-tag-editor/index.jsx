@@ -22,7 +22,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
                 gtag('config', '${googleAnalytics.id}');`}
             </script>
           )}
-          <title>${profile.name}</title>
+          <title>Ajie Ikrus Kusumadhany</title>
           <meta
             name="theme-color"
             content={isDarkishTheme(theme) ? '#000000' : '#ffffff'}
@@ -32,16 +32,16 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
 
           <meta
             itemProp="name"
-            content={`${profile.name}`}
+            content={`Ajie Ikrus Kusumadhany`}
           />
-          <meta itemProp="description" content={profile.bio} />
+          <meta itemProp="description" content="Seorang mahasiswa teknik informatika di salah satu universitas di indonesia, suka komputer, belajar coding, serta lebih sering menghabiskan waktu di internet." />
           <meta itemProp="image" content={profile.avatar} />
 
           <meta property="og:url" content={social?.website || ''} />
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content={`${profile.name}`}
+            content={`Ajie Ikrus Kusumadhany`}
           />
           <meta property="og:description" content="Seorang mahasiswa teknik informatika di salah satu universitas di indonesia, suka komputer, belajar coding, serta lebih sering menghabiskan waktu di internet." />
           <meta property="og:image" content={profile.avatar} />
@@ -49,7 +49,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content={`${profile.name}`}
+            content={`Ajie Ikrus Kusumadhany`}
           />
           <meta name="twitter:description" content="Seorang mahasiswa teknik informatika di salah satu universitas di indonesia, suka komputer, belajar coding, serta lebih sering menghabiskan waktu di internet." />
           <meta name="twitter:image" content={profile.avatar} />
