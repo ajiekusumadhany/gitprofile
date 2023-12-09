@@ -1,6 +1,6 @@
 {
-  "short_name": "GitProfile",
-  "name": "Personal Portfolio",
+  "short_name": "Ajie",
+  "name": "Ajie Kusumadhany",
   "icons": [
     {
       "src": "favicon.png",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#0d9488",
+  "theme_color": "#7a44ee",
   "background_color": "#ffffff"
 }
