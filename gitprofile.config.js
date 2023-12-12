@@ -164,7 +164,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `<a href="https://github.com/arifszn/gitprofile" target="_blank" rel="nofollow noreferrer">GitProfile</a> and ❤️`,
+  footer: `Made with <a href="https://github.com/arifszn/gitprofile" target="_blank" rel="nofollow noreferrer">GitProfile</a> and ❤️`,
 
 };
 
