@@ -24,13 +24,13 @@ const config = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://ajiekusumadhany.com',
+    website: 'ajiekusumadhany.com',
     phone: '',
-    email: 'ajiekusumadhany@gmail.com',
+    email: '',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1c73NkLsqLwP6UxCmwAdznyfMxuJz-Mu_/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'mailto:ajiekusumadhany@gmail.com', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
