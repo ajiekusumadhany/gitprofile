@@ -24,7 +24,7 @@ const config = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'ajiekusumadhany.com',
+    website: '',
     phone: '',
     email: '',
   },
